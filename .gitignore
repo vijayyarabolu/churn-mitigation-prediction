@@ -1,0 +1,49 @@
+# Environment
+.env
+.env.local
+.env.production
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Model artifacts
+*.pkl
+*.joblib
+*.h5
+models/*.pkl
+models/*.json
+!models/__init__.py
+
+# Data files
+data/*.csv
+data/*.parquet
+!data/__init__.py
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+logs/
